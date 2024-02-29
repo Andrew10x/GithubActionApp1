@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class GithubActionApp1Application {
     @GetMapping("/")
     public String get() {
-        return "Welcome to the masquerade";
+        return "Welcome to the masquerade!!!";
     }
     public static void main(String[] args) {
         SpringApplication.run(GithubActionApp1Application.class, args);
